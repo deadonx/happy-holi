@@ -3,7 +3,7 @@ let input = document.getElementById('holder');
 let button = document.getElementById('submit');
 function ShowName(value) {
   console.log(input.value);
-  let valuess= history.pushState({},"",(input.value)
+  // let valuess= history.pushState({},"",(input.value)
 
   )
   names.innerHTML = (valuess) ;
