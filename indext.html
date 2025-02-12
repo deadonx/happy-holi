@@ -12,6 +12,23 @@
       <marquee style="z-index:2;position:absolute;left:270px;top:350px;font-size:26pt" scrollamount="2" direction="up"></marquee>
       
     <div>
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '042b4bc6318d1c4bf2ede7bf3241b642',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+            };
+            document.write('<scr' + 'ipt type="text/javascript"></scr' + 'ipt>');
+        </script>
+          
+        
+          <span style="font-size:22px;text-shadow: 1px 1px 3px #FFEB3B, 1px 1px 3px #FFEB3B, -1px -1px 3px #FFEB3B, -1px -1px 3px #FFEB3B;color:#E91E63;"><marquee><b><div id="mani"></div></b></marquee></span></center><br>
+        <div class="glow" id="manikant"></div>
+        <br>
+            
+        
 <div id="formBox" >
     <input class="animated pulse infinite" type="text" name="name" id="nameTextBox"  placeholder="यहाँ अपना नाम लिखें">
     <div class="animated pulse infinite" id="goButton" onclick="createGreeting()" >
@@ -47,6 +64,8 @@ var checkName = function() {
 if (name.length !== 0) {
   name = name.replace(/-/g, " ");
   console.log("name is there", name);
+  console.log(name);
+  
   document.querySelector("#manikant").innerHTML = name;
   document.querySelector("#mani").innerHTML = name+" की तरफ से आपको और आपके परिवार को नववर्ष 2025 की हार्दिक शुभकामनायें !!";
   document.querySelector("#hindisahayata-show-name").innerHTML = name;
